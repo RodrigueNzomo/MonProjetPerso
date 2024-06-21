@@ -1,0 +1,4 @@
+Nettoyage de l'interface terminal
+
+clear : Nettoie simplement l'affichage actuel du terminal.
+reset : Réinitialise le terminal, utile si le terminal devient instable.
