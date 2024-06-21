@@ -1,0 +1,11 @@
+Nettoyage de l'environnement Git
+
+git clean -f : Force la suppression des fichiers non suivis (non versionnés) dans le répertoire de travail.
+git clean -fd : Supprime de force les fichiers et les répertoires non suivis.
+git clean -xfd : Supprime de manière agressive tous les fichiers et répertoires non suivis.
+git checkout . : Annule toutes les modifications locales dans les fichiers suivis par Git.
+git reset --hard : Réinitialise l'index et le répertoire de travail pour correspondre à l'état du dernier commit.
+git stash : Enregistre les modifications locales non validées dans une pile de modifications, et nettoie le répertoire de travail.
+rm -rf .git : Supprime complètement le répertoire Git, ce qui nettoie tous les fichiers de configuration et historiques Git du projet.
+git prune : Supprime les objets orphelins qui ne sont plus accessibles à partir des commits.
+git reflog expire --all --expire-unreachable=now : Nettoie les entrées anciennes du re
